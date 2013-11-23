@@ -39,9 +39,16 @@
  * Update the basics of our documents to prep for docs content.
  */
 
+
+
+.navbar-wrapper {
+  position: relative;
+  margin-bottom: 50px;
+  z-index: 20;
+}
+
 body {
     position: relative; /* For scrollyspy */
-    padding-top: 50px; /* Account for fixed navbar */
 }
 
 /* Keep code small in tables on account of limited space */
