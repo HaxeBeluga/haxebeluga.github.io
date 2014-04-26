@@ -109,6 +109,18 @@ body {
 
 }
 
+.copy {
+  text-align:center;
+}
+
+#footer {
+  margin-bottom: 25px;
+}
+
+.lang {
+  margin-right: 20px;
+}
+
 @media (min-width: 992px) {
   .featurette-heading {
     margin-top: 120px;
