@@ -1,0 +1,128 @@
+/*!
+ * Start Bootstrap - Logo Nav HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    background-color: #EEE;
+}
+
+/* Navigation bar */
+
+.navbar {
+	background-color: #FFF;
+	border-style: none;
+	box-shadow: 0px 0px 5px #666;
+	margin-bottom: 0px;
+
+}
+
+.navbar-fixed-top .nav {
+    padding: 15px 0;
+}
+
+.navbar-fixed-top .navbar-brand {
+    padding: 0px 15px;
+}
+
+.navbar-brand {
+	margin-right:20px;
+}
+
+.navbar-brand > img {
+	height: 37px;
+	margin: 6px 0;
+}
+
+.navbar-nav {
+	text-align: center;
+}
+
+.navbar-nav li a {
+	font-family: "AgencyFB", Arial, Helvetica;
+	font-size: 28px;
+	color: #999 !important;
+}
+
+.navbar-nav li a:hover {
+	color: #424242 !important;
+}
+
+.navbar-toggle {
+	background-color: #333;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+	border-style: none;
+}
+
+@media(min-width:768px) {
+    body {
+        padding-top: 80px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        margin: 15px 0px;
+    }
+
+    .navbar-brand > img {
+		height: 50px;
+		margin: 0;
+	}
+
+	.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+		margin-left: 0px;
+	}
+}
+
+/* Fat logo header */
+
+.fat-logo-wego {
+	background-color: #232C35;
+}
+
+.fat-logo-header {
+	width: 50%;
+	margin: 0 auto;
+
+}
+
+.fat-logo-title {
+	text-align: center;
+	font-family: "AgencyFB", Arial, Helvetica;
+	color: #FFF;
+	font-size: 55px;
+	margin-bottom: 25px;
+}
+
+.fat-logo-desc {
+	text-align: center;
+	font-family: "AgencyFB", Arial, Helvetica;
+	font-size: 32px;
+	margin-bottom: 25px;
+	color: #F4F4F4;
+}
+
+.fat-logo {
+	margin-top: 30px;
+	margin-bottom: 60px;
+	max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
+
+/* Misc */
+
+.color-blue {
+	color: #23A2F7;
+}
+
+.color-green {
+	color: #33CC33;
+}
+
+.color-orange {
+	color: #FF7F00;
+}

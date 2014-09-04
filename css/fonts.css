@@ -1,0 +1,18 @@
+/* Agency FB */
+
+@font-face {
+    font-family: 'AgencyFB';
+    src:url('../fonts/AgencyFB/AgencyFB.eot');
+	src:url('../fonts/AgencyFB/AgencyFB.eot?iefix') format('eot'),
+		url('../fonts/AgencyFB/AgencyFB.ttf') format('truetype');
+}
+
+/* Buxton Sketch */
+
+@font-face {
+	font-family: 'BuxtonSketch';
+	src:url('../fonts/BuxtonSketch/BuxtonSketch.eot');
+	src:url('../fonts/BuxtonSketch/BuxtonSketch.eot?iefix') format('eot'),
+		url('../fonts/BuxtonSketch/BuxtonSketch.woff') format('woff'),
+		url('../fonts/BuxtonSketch/BuxtonSketch.ttf') format('truetype');
+}
