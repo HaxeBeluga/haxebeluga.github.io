@@ -16,3 +16,11 @@
 		url('../fonts/BuxtonSketch/BuxtonSketch.woff') format('woff'),
 		url('../fonts/BuxtonSketch/BuxtonSketch.ttf') format('truetype');
 }
+
+/* Open Sans */
+
+@font-face {
+    font-family: 'OpenSans';
+    src:url('../fonts/OpenSans/OpenSans-Regular.ttf');
+    src:url('../fonts/OpenSans/OpenSans-Regular.ttf') format('truetype');
+}
