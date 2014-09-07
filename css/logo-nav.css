@@ -106,12 +106,19 @@ body {
 	color: #F4F4F4;
 }
 
+.fat-logo-desc > a {
+    color: #FF7F00; 
+}
+
 .fat-logo {
+    display: block;
+    margin: 0 auto;
 	margin-top: 30px;
 	margin-bottom: 60px;
 	max-width: 100%;
     height: auto;
     width: auto\9;
+    max-width: 600px;
 }
 
 @media(min-width:768px) {
@@ -121,10 +128,11 @@ body {
     }
 }
 
-/* Learn more part */
+/* Learn more */
 
 .learn-more-wego {
-    margin: 20px 0;
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 .learn-more-title {
@@ -133,18 +141,21 @@ body {
     margin-top: 50px;
 }
 
-.learn-more-info {
-    margin-bottom: 50px;
-}
-
 .learn-more-info > div > h3 {
     font-family: "AgencyFB", Arial, Helvectica;
     font-size: 28px;
 }
 
 .learn-more-info > div > p {
-    font-family: "OpenSans", "AgencyFB", Arial, Helvectica;
+    font-family: "OpenSans", Arial, Helvectica;
     font-size: 16px;
+}
+
+/* Taste of code */
+
+.taste-code-wego {
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 .taste-title {
@@ -155,27 +166,67 @@ body {
 
 .taste-comment {
     font-family: "AgencyFB", Arial, Helvetica;
-    font-size: 30px;
     text-align: center;
     padding: 20px 0;
-    -ms-transform: none;
-    -webkit-transform: rotate(0deg); 
-    transform: rotate(0deg);
+    font-size: 32px;
 }
+
 
 @media(min-width:991px) {
 
     .taste-comment {
-        padding: 80px 0;
-        -ms-transform: rotate(20deg); /* IE 9 */
-        -webkit-transform: rotate(20deg); /* Chrome, Safari, Opera */
-        transform: rotate(20deg);
+        padding: 50px 0;
+        font-size: 40px;
     }
+}
+
+/* Beluga Framework */
+
+
+.beluga-framework-title {
+    font-family: "AgencyFB", Arial, Helvetica;
+    font-size: 38px;   
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.beluga-framework-info > p {
+    font-family: "OpenSans", Arial, Helvectica;
+    font-size: 16px;
 }
 
 /* Footer */
 
+.footer-wego {
+    background-color: #232C35;
+    margin-top: 60px; 
+}
 
+.footer-wego > .container > .row {
+    margin-top: 40px;
+    margin-bottom: 120px;
+}
+
+.footer-wego > div > div > div > h3 {
+    font-family: "AgencyFB", Arial, Helvetica;
+    font-size: 28px;   
+    margin-bottom: 20px;
+    color: #FFF;
+}
+
+.footer-wego > div > div > div > h3 > a {
+    color: #FFF;
+}
+
+.footer-wego > div > div > div > ul > li {
+    margin: 5px 0;
+}
+
+.footer-wego > div > div > div > ul > li > a {
+    font-family: "OpenSans", Arial, Helvectica;
+    font-size: 12px;
+    color: #FFF;
+}
 
 /* Misc */
 
