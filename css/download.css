@@ -1,0 +1,101 @@
+/* Prerequies / Haxelib */
+
+.prerequies-title, .haxelib-title {
+    font-family: "AgencyFB", Arial, Helvetica;
+    font-size: 38px;   
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.prerequies-info > div > p, .haxelib-info > div > p {
+    font-family: "OpenSans", Arial, Helvectica;
+    font-size: 16px;
+}
+
+.prerequies-info > div > ul > li, .alert {
+    font-family: "OpenSans", Arial, Helvectica;
+    font-size: 16px;
+}
+
+.prerequies-subtitle  {
+    font-family: "AgencyFB", Arial, Helvectica;
+    font-size: 28px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+@media(min-width:768px) {
+
+    .fat-logp-header {
+	    width: 50%;
+    }
+}
+
+.well {
+    background-color: #FFF;
+    margin: 20px 0;
+}
+
+/* Haxelib */
+
+.alert {
+    font-family: "OpenSans", Arial, Helvectica;
+    font-size: 16px;
+    margin: 30px 0;
+}
+
+/* Taste of code */
+
+.taste-code-wego {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.taste-title {
+    font-family: "AgencyFB", Arial, Helvetica;
+    font-size: 38px;   
+    margin-bottom: 40px;
+}
+
+.taste-comment {
+    font-family: "AgencyFB", Arial, Helvetica;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 32px;
+}
+
+
+@media(min-width:991px) {
+
+    .taste-comment {
+        padding: 50px 0;
+        font-size: 40px;
+    }
+}
+
+/* Beluga Framework */
+
+
+.beluga-framework-title {
+    font-family: "AgencyFB", Arial, Helvetica;
+    font-size: 38px;   
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.beluga-framework-info > p {
+    font-family: "OpenSans", Arial, Helvectica;
+    font-size: 16px;
+    text-align: justifyNONE;
+}
+
+.beluga-framework-wego > div > .row {
+    margin-bottom: 30px;
+}
+
+.beluga-framework-subtitle > h3 {
+    margin-top: 0;
+    font-family: "AgencyFB", Arial, Helvectica;
+    font-size: 28px;
+    text-align: right;
+}

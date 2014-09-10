@@ -11,14 +11,17 @@
         <meta name="author" content="HaxeBeluga">
 
         <title>Beluga - Home</title>
-        <link rel="shortcut icon" type="image/x-icon" href="../img/favicon.png">
+        <link rel="shortcut icon" type="image/x-icon" href="../img/beluga/beluga_favicon.png">
 
         <!-- Bootstrap Core CSS -->
         <link href="../css/bootstrap.min.css" rel="stylesheet">
 
         <!-- Custom CSS -->
         <link href="../css/fonts.css" rel="stylesheet">
-        <link href="../css/logo-nav.css" rel="stylesheet">
+        <link href="../css/body.css" rel="stylesheet">
+        <link href="../css/footer.css" rel="stylesheet">
+        <link href="../css/navbar.css" rel="stylesheet">
+        <link href="../css/home.css" rel="stylesheet">
         <link href="../css/highlight.css" rel="stylesheet">
 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -44,7 +47,7 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand" href="#">
-                        <img src="../img/logo_beluga_notitle.png" alt="Logo of Beluga">
+                        <img src="../img/beluga/beluga_logo_notitle.png" alt="Logo of Beluga">
                     </a>
                 </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
@@ -82,7 +85,8 @@
                             <strong><span class="color-green">customizable framework</span>
                             </strong>.
                             </p>
-                            <img class="fat-logo" src="../img/logo_beluga_notitle.png" alt="Logo of Beluga">
+                            <img class="fat-logo"
+                            src="../img/beluga/beluga_logo_notitle.png" alt="Logo of Beluga">
                             <p class="fat-logo-desc">
                             A framework based on high-level, modern and strongly typed 
                             programing language: <a href="http://www.haxe.org"><strong>
@@ -106,7 +110,7 @@
                             language: Haxe. It was initially created to help game
                             developers to quickly implement their browser game, written in
                             Haxe, inside a full integrated web environment. 
-                            <a href="#">Learn More.</a></p>
+                            <a href="#framework">Learn More.</a></p>
                         </div>
                         <div class="col-md-4">
                             <h3 class="color-blue"><strong>What Beluga is not</strong></h3>
@@ -114,7 +118,7 @@
                             Haxe Flixel. It doesn't provide any game mechanism. It is
                             only designed to provide an high level API to create we
                             application in Haxe.
-                            <a href="#">Learn More.</a></p>
+                            <a href="#framework">Learn More.</a></p>
                         </div>
                         <div class="col-md-4">
                             <h3 class="color-blue"><strong>What Haxe is</strong></h3>
@@ -182,30 +186,77 @@ class="nf">main</span><span class="o">()</span> <span class="o">{</span>
 
             <!-- Beluga Framework -->
 
-            <div id="framework" class="beluga-framework">
+            <div id="framework" class="beluga-framework-wego">
                 <div class="container">
+                    <h2 class="beluga-framework-title"><strong>The Beluga Framework</strong></h2>
                     <div class="row">
-                        <div class="col-md-12 beluga-framework-info">
-                            <h2 class="beluga-framework-title"><strong>The Beluga Framework</strong></h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur
+                        <div class="col-md-2 beluga-framework-subtitle">
+                            <h3 class="color-blue"><strong>Modular</strong></h3>
+                        </div>
+                        <div class="col-md-10 beluga-framework-info">
+                            <p>
+                            Beluga is an open source framework built to
+                            create web application. It is based on a modern
+                            high level programming language: Haxe. It was
+                            initially created to help game developers to
+                            quickly implement their browser game, written in
+                            Haxe, inside a full integrated web environment.
+                            </p>
+                            <p>
+                            In the today web practices, we noticed that
+                            modularity and flexibility are unavoidable
+                            requirements. As a result, we designed a highly
+                            modular framework based on plugin system, called
+                            module; all centrelized around a core.
+                            </p>
+                            <p>
+                            One of its main assets is the communication system
+                            we established between the module, nammed "trigger
+                            system". To do it shortly, when an operation ends,
+                            this one throws a signal (or <i>trigger</i>) to warn
+                            about the current state of the operation (success or 
+                            failure, for example). All of these triggers are
+                            catchable, it means you can listen these trigger
+                            and run your own code when something occurs. Don't
+                            wait any longer: <strong>Catch'em all!</strong>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 beluga-framework-subtitle">
+                            <h3 class="color-blue"><strong>Light weight</strong></h3>
+                        </div>
+                        <div class="col-md-10 beluga-framework-info">
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur
                             adipiscing elit. Nam pellentesque turpis at augue
                             fermentum feugiat vitae sit amet nibh. Nam et nulla
                             eu justo tincidunt semper. Fusce eu augue purus.
                             Suspendisse tortor nisl, molestie non libero vel,
                             pellentesque dapibus ex.
                             </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 beluga-framework-subtitle">
+                            <h3 class="color-blue"><strong>Ready to use</strong></h3>
+                        </div>
+                        <div class="col-md-10 beluga-framework-info">
                             <p>
-                            Sed diam est, tincidunt eu
-                            augue at, rutrum pretium diam. Fusce a vulputate
-                            lorem. Sed faucibus ultrices elementum. Praesent id
-                            lacus facilisis, tristique tellus ac, tristique
-                            lectus. Quisque sed bibendum odio, sed vehicula
-                            odio. Praesent blandit ante felis, sed convallis
-                            turpis dapibus vitae. Donec sit amet metus quam.
-                            Nam dignissim arcu augue, eget venenatis nulla
-                            pretium eu. In pretium, tortor a laoreet eleifend,
-                            nulla lectus feugiat lacus, id ornare libero justo
-                            id mi. In a mi est.</p>
+                            In order to provide a good base, we decided to
+                            provide around 15 modules for our first release.
+                            Among them, you can find: an account manager, a
+                            forum, an advertiser manager, a market, a payment
+                            system, a news manager... And it goes on! 
+                            </p>
+                            <p>
+                            Each of them possesses hundred of functionalities and are
+                            fully integrated inside a modern <a
+                            href="http://getbootstrap.com/">Twitter
+                            Bootstrap</a> environment. Moreover, we can certify
+                            that everything work properly Do not hesitate to try
+                            them on <a href="#">our demonstration website!</a>
+                            </p>
                         </div>
                     </div>
                 </div>

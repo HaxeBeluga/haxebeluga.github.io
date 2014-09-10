@@ -1,0 +1,128 @@
+/* Fat logo header */
+
+.fat-logo-wego {
+	background-color: #232C35;
+}
+
+.fat-logo-header {
+	width: 80%;
+	margin: 80px auto;
+
+}
+
+.fat-logo-title {
+	text-align: center;
+	font-family: "AgencyFB", Arial, Helvetica;
+	color: #FFF;
+	font-size: 55px;
+	margin-bottom: 25px;
+}
+
+.fat-logo-desc {
+	text-align: center;
+	font-family: "AgencyFB", Arial, Helvetica;
+	font-size: 32px;
+	margin-bottom: 25px;
+	color: #F4F4F4;
+}
+
+.fat-logo-desc > a {
+    color: #FF7F00; 
+}
+
+.fat-logo {
+    display: block;
+    margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 60px;
+	max-width: 100%;
+    height: auto;
+    width: auto\9;
+    max-width: 600px;
+}
+
+@media(min-width:768px) {
+
+    .fat-logp-header {
+	    width: 50%;
+    }
+}
+
+/* Learn more */
+
+.learn-more-wego {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.learn-more-title {
+    font-family: "AgencyFB", Arial, Helvetica;
+    font-size: 38px;   
+    margin-top: 50px;
+}
+
+.learn-more-info > div > h3 {
+    font-family: "AgencyFB", Arial, Helvectica;
+    font-size: 28px;
+}
+
+.learn-more-info > div > p {
+    font-family: "OpenSans", Arial, Helvectica;
+    font-size: 16px;
+}
+
+/* Taste of code */
+
+.taste-code-wego {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.taste-title {
+    font-family: "AgencyFB", Arial, Helvetica;
+    font-size: 38px;   
+    margin-bottom: 40px;
+}
+
+.taste-comment {
+    font-family: "AgencyFB", Arial, Helvetica;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 32px;
+}
+
+
+@media(min-width:991px) {
+
+    .taste-comment {
+        padding: 50px 0;
+        font-size: 40px;
+    }
+}
+
+/* Beluga Framework */
+
+
+.beluga-framework-title {
+    font-family: "AgencyFB", Arial, Helvetica;
+    font-size: 38px;   
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.beluga-framework-info > p {
+    font-family: "OpenSans", Arial, Helvectica;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.beluga-framework-wego > div > .row {
+    margin-bottom: 30px;
+}
+
+.beluga-framework-subtitle > h3 {
+    margin-top: 0;
+    font-family: "AgencyFB", Arial, Helvectica;
+    font-size: 28px;
+    text-align: right;
+}
