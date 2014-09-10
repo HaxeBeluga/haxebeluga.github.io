@@ -15,10 +15,16 @@
     font-size: 28px;   
     margin-bottom: 20px;
     color: #FFF;
+    text-align: center;
 }
 
 .footer-wego > div > div > div > h3 > a {
     color: #FFF;
+}
+
+
+.footer-wego > div > div > div > ul {
+    text-align: center;
 }
 
 .footer-wego > div > div > div > ul > li {
@@ -29,5 +35,17 @@
     font-family: "OpenSans", Arial, Helvectica;
     font-size: 12px;
     color: #FFF;
+}
+
+@media(min-width:768px) {
+
+.footer-wego > div > div > div > h3 {
+    text-align: left;
+}
+
+.footer-wego > div > div > div > ul {
+    text-align: left;
+}
+
 }
 
