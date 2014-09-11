@@ -32,9 +32,7 @@
 
 .fat-logo {
     display: block;
-    margin: 0 auto;
-	margin-top: 30px;
-	margin-bottom: 60px;
+	margin: 60px auto;
 	max-width: 100%;
     height: auto;
     width: auto\9;
@@ -42,9 +40,36 @@
 
 @media(min-width:768px) {
 
-    .fat-logp-header {
-	    width: 50%;
+    .fat-logo-header {
+	    width: 60%;
     }
+}
+
+/* Targets */
+
+.targets-wego {
+    background-color: #FFF;
+    padding: 50px 0;
+}
+
+.targets-desc {
+	color: #232C35;
+	text-align: center;
+	font-family: "AgencyFB", Arial, Helvetica;
+	font-size: 32px;
+    margin: 30px 0;
+    padding: 0 80px;
+}
+
+@media(min-width:991px) {
+
+    .targets-desc {
+        margin: 140px auto;
+        text-align: left;
+        padding: 0;
+        padding-right: 80px;
+    }
+
 }
 
 /* Learn more */

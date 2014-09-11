@@ -17,6 +17,10 @@ body {
 	color: #FF7F00;
 }
 
+.color-marine {
+	color: #232C35;
+}
+
 .code-snippet {
     font-family: "OpenSans", Arial, Helvectica;
     font-size: 16px;
