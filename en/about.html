@@ -6,11 +6,11 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Downlaod Beluga, the web-application
+        <meta name="description" content="About Beluga, the web-application
         framework written in Haxe.">
         <meta name="author" content="HaxeBeluga">
 
-        <title>Beluga - Download</title>
+        <title>Beluga - About</title>
         <link rel="shortcut icon" type="image/x-icon" href="../img/beluga/beluga_favicon.png">
 
         <!-- Bootstrap Core CSS -->
@@ -18,12 +18,10 @@
 
         <!-- Custom CSS -->
         <link href="../css/fonts.css" rel="stylesheet">
-        <link href="../css/body.css" rel="stylesheet">
-        <link href="../css/footer.css" rel="stylesheet">
         <link href="../css/navbar.css" rel="stylesheet">
+        <link href="../css/footer.css" rel="stylesheet">
         <link href="../css/about.css" rel="stylesheet">
-        <link href="../css/highlight.css" rel="stylesheet">
-        <link href="../css/docs.css" rel="stylesheet">
+        <link href="../css/utils/docs.css" rel="stylesheet">
 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -76,32 +74,28 @@
 
             <div id="about">
                 <div class="container">
-                    <h2 class="about-title"><strong>Who are we?</strong></h2>
-                    <div class="row about-info">
+                    <div class="row">
                         <div class="col-md-12">
-                            <p>
-                            Firstly, to understand who we are, we have to tell
-                            the story of project and how it is born.
-                            </p>
+
+                            <h2 class="b-title">Who are we?</h2>
 
                             <!-- Epitech -->
 
-                            <h3 id="epitech" class="about-subtitle color-blue"><strong>Epitech</strong></h3>
-                            <div class="row about-desc">
+                            <h3 id="epitech" class="b-subtitle">Epitech</h3>
+                            <div class="row">
                                 <div class="col-md-7">
-                                    <p>
+                                    <p class="b-content">
                                     We all come from a French private school named
-                                    <a href="http://tech3si.epitech.eu/">Epitech</a>,
+                                    <a href="http://tech3si.epitech.eu/" class="b-blue">Epitech</a>,
                                     also called the European Institute of Technology.
                                     Although this private institution of higher education
                                     teaches general computer science, it is mostly
                                     oriented on computer programming.
                                     </p>
-                                    <br>
-                                    <p>
+                                    <p class="b-content">
                                     In order to validate our diploma, we have
                                     to realize a "2-years long" project. We
-                                    call it: <a href="http://www.epitech.eu/#index">
+                                    call it: <a href="http://www.epitech.eu/#index" class="b-blue">
                                     Epitech Innovative Project</a>. This project, just like
                                     the education system, is founded on the
                                     "project method"; it means getting
@@ -124,17 +118,16 @@
 
                             <!-- Team -->
 
-                            <h3 id="team" class="about-subtitle color-blue"><strong>Our team</strong></h3>
-                            <div class="row about-desc">
+                            <h3 id="team" class="b-subtitle">Our team</h3>
+                            <div class="row">
                                 <div class="col-md-7">
-                                    <p>
+                                    <p class="b-content">
                                     Our team is composed of 7 members. Six of us come from Bordeaux (France)
                                     and one from Paris. Before Beluga, we all experienced the Haxe technologies
                                     in various small project. We noticed that something was missing. A
                                     framework to help us in our projects.
                                     </p>
-                                    <br>
-                                    <p>
+                                    <p class="b-content">
                                     Then, Beluga was born. The idea initially came from Jimmy Delas and
                                     Thomas Wilgenbus. Jeremy Letang, Guillaume Gomez, Alexis Brissard and
                                     Valentin Trinque joined the project soon after. And few months after,
@@ -142,9 +135,6 @@
                                     years old in average creating a very dynamic team full filled with
                                     passion and power of will.
                                     </p>
-                                    <blockquote>
-                                        <p>We are open to our community and are ready to accept new members from all over the world.</p>
-                                    </blockquote>
                                 </div>
                                 <div class="col-md-1">
                                 </div>
@@ -155,18 +145,32 @@
                                 <div class="col-md-1">
                                 </div>
                             </div>
+                        </div>
+                    </div>
 
-                            <!-- Contact -->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2 class="b-title">Our philosophy!</h2>
+                            <p class="well b-lead our-words">
+                            "We are open to <span class="b-blue">our community</span>,
+                            its needs and requirements. <span class="b-orange">Haxers</span>
+                            from all around the world, we are happy to
+                            <span class="b-green">build and share</span> with you!"
+                            </p>
+                        </div>
+                    </div>
 
-                            <h3 id="contact" class="about-subtitle
-                                color-blue"><strong>Contact us</strong></h3>
-                            <div class="row about-desc">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2 class="b-title">Want to chat?</h2>
+                            <h3 id="contact" class="b-subtitle">Contact us</h3>
+                            <div class="row">
                                 <div class="col-md-7">
-                                    <p>
+                                    <p class="b-content">
                                     You can contact us directly by
                                     e-mail at the following address:
                                     </p>
-                                    <div class="well">
+                                    <div class="well code-snippet">
                                     beluga_2015@labeip.epitech.eu
                                     </div>
                                 </div>
@@ -176,15 +180,16 @@
 
                             <!-- Github -->
 
-                            <div class="row about-desc">
+                            <h3 id="github" class="b-subtitle">GitHub</h3>
+                            <div class="row">
                                 <div class="col-md-7">
-                                    <p>
+                                    <p class="b-content">
                                     As you already know, our project is hosted
                                     by GitHub. You can contact us on our
                                     GitHub's profil or just follow some cool repositories.
                                     </p>
                                     <br>
-                                    <div class="list-group bs-team">
+                                    <div class="list-group bs-team b-content">
                                         <div class="list-group-item">
                                             <a class="team-member" href="https://github.com/Masadow">
                                                 <img src="https://avatars1.githubusercontent.com/u/2227736?v=2&s=400" alt="@Masadow">
@@ -236,8 +241,9 @@
                                         </div>
                                     </div>
                                     <br>
-                                    <p>Get involved with Beluga development <a
-                                        href="https://github.com/HaxeBeluga/Beluga/issues/new">opening an issue</a> or submitting a pull request.</p>
+                                    <p class="b-content">Get involved with Beluga development <a
+                                        href="https://github.com/HaxeBeluga/Beluga/issues/new"
+                                        class="b-blue">opening an issue</a> or submitting a pull request.</p>
                                     </div>
                                     <div class="col-md-1">
                                     </div>

@@ -18,11 +18,9 @@
 
         <!-- Custom CSS -->
         <link href="../css/fonts.css" rel="stylesheet">
-        <link href="../css/body.css" rel="stylesheet">
-        <link href="../css/footer.css" rel="stylesheet">
         <link href="../css/navbar.css" rel="stylesheet">
+        <link href="../css/footer.css" rel="stylesheet">
         <link href="../css/download.css" rel="stylesheet">
-        <link href="../css/highlight.css" rel="stylesheet">
 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -75,31 +73,31 @@
 
             <div id="prerequies">
                 <div class="container">
-                    <h2 class="prerequies-title"><strong>Prerequies</strong></h2>
-                    <div class="row prerequies-info">
+                    <div class="row">
                         <div class="col-md-12">
-                            <p>
+                            <h2 class="b-title">Prerequies</h2>
+                            <p class="b-content">
                             First of all, Beluga is a framework based on the Haxe
                             technologie, so obviously, you need to set up the Haxe
                             environment. Beside our project, you also need to
                             install some dependencies which are highly
                             essential. Without it, it won't compile.
                             </p>
-                            <h3 class="prerequies-subtitle color-blue"><strong>Haxe</strong></h3>
-                            <p>
+                            <h3 class="b-subtitle">Haxe</h3>
+                            <p class="b-content">
                             This framework is highly dependent of specific version of
                             Haxe and so, requires the following package:
                             </p>
-                            <ul>
+                            <ul class="b-content">
                                 <li>Haxe 3.1.3</li>
                                 <li>Haxelib 3.1.0-rc.4</li>
                             </ul>
-                            <p>
+                            <p class="b-content">
                             You can find all the installation process of Haxe
-                            on the <a href="http://haxe.org">official website</a>.
+                            on the <a href="http://haxe.org" class="b-blue">official website</a>.
                             </p>
-                            <h3 class="prerequies-subtitle color-blue"><strong>Session</strong></h3>
-                            <p>
+                            <h3 class="b-subtitle">Session</h3>
+                            <p class="b-content">
                             Session is a library integrating the very basic
                             support of the web session. You just need to
                             execute the following command:
@@ -107,9 +105,9 @@
                             <div class="well code-snippet">
                                 haxelib install session
                             </div>
-                            <p>
+                            <p class="b-content">
                             You can find more information on the 
-                            <a href="https://bitbucket.org/yar3333/haxe-session/overview">
+                            <a href="https://bitbucket.org/yar3333/haxe-session/overview" class="b-blue">
                                 official repository
                             </a>.
                             </p>
@@ -123,20 +121,20 @@
 
             <div id="haxelib">
                 <div class="container">
-                    <h2 class="haxelib-title"><strong>From Haxelib</strong></h2>
-                    <div class="row haxelib-info">
+                    <div class="row">
                         <div class="col-md-12">
-                            <p>
+                            <h2 class="b-title">From Haxelib</h2>
+                            <p class="b-content">
                             In this part, we will see how to intall Beluga from
                             the official library manager: Haxelib.
                             </p>
-                            <div class="alert alert-info" role="alert">
+                            <div class="alert alert-info b-note" role="alert">
                             Haxelib is the library manager that comes with any Haxe
                             distribution. Connected to a central repository, it
                             allows submitting and retrieving libraries and has
                             multiple features beyond that.
                             </div>
-                            <p>
+                            <p class="b-content">
                             You just need to execute the following command:
                             </p>
                             <div class="well code-snippet">
@@ -151,28 +149,28 @@
 
             <div id="github">
                 <div class="container">
-                    <h2 class="haxelib-title"><strong>From GitHub</strong></h2>
-                    <div class="row haxelib-info">
+                    <div class="row">
                         <div class="col-md-12">
-                            <p>
+                            <h2 class="b-title">From GitHub</h2>
+                            <p class="b-content">
                             First of all, you need to install Git on your
                             machine. You can find how to do it on the <a
-                            href="http://git-scm.com/downloads">official website</a>.
+                            href="http://git-scm.com/downloads" class="b-blue">official website</a>.
                             </p>
-                            <div class="alert alert-info" role="alert">
+                            <div class="alert alert-info b-note" role="alert">
                             Git is a free and open source distributed version
                             control system designed to handle everything from
                             small to very large projects with speed and
                             efficiency.
                             </div>
-                            <p>
+                            <p class="b-content">
                             Now you got Git, you need to run the following
                             command:
                             </p>
                             <div class="well code-snippet">
                                 haxelib git https://github.com/HaxeBeluga/Beluga.git Beluga
                             </div>
-                            <p>
+                            <p class="b-content">
                             This command tells to Haxelib to clone the Git
                             repository and to install it directly inside the
                             library manager.
@@ -181,7 +179,34 @@
                     </div>
                 </div>
             </div>
-            
+
+
+            <!-- Older versions -->
+
+            <div id="all-version">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2 class="b-title">All versions</h2>
+                            <table class="table code-snippet table-bordered">
+                                <tbody class="b-content">
+                                    <tr>
+                                        <td>Beluga 0.1</td>
+                                        <td>2014/12/28</td>
+                                        <td><a href="https://github.com/HaxeBeluga/Beluga/releases" class="b-blue">v0.1</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Beluga 0.2</td>
+                                        <td>2014/11/14</td>
+                                        <td><a href="https://github.com/HaxeBeluga/Beluga/releases" class="b-blue">v0.2</a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <!-- Footer -->
 
             <div class="footer-wego">

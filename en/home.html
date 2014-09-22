@@ -18,11 +18,10 @@
 
         <!-- Custom CSS -->
         <link href="../css/fonts.css" rel="stylesheet">
-        <link href="../css/body.css" rel="stylesheet">
         <link href="../css/footer.css" rel="stylesheet">
         <link href="../css/navbar.css" rel="stylesheet">
         <link href="../css/home.css" rel="stylesheet">
-        <link href="../css/highlight.css" rel="stylesheet">
+        <link href="../css/utils/highlight.css" rel="stylesheet">
 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -77,21 +76,17 @@
             <div class="fat-logo-wego">
                 <div class="container">
                     <div class="row">
-                        <div class="fat-logo-header">
-                            <h1 class="fat-logo-title">The Web Application Framework</h1>
-                            <p class="fat-logo-desc">
-                            A flexible and modular API which provides a <strong>
-                            <span class="color-blue">highly configurable</span></strong> and 
-                            <strong><span class="color-green">customizable framework</span>
-                            </strong>.
-                            </p>
-                            <img class="fat-logo"
+                        <div class="col-md-12 fat-logo-box">
+                            <h1 class="fat-logo-super">The Web Application Framework</h1>
+                            <p class="fat-logo-lead">
+                            A flexible and modular API which provides a
+                            <span class="b-blue">highly configurable</span> and
+                            <span class="b-green">customizable framework</span>
+                            written in <a href="http://www.haxe.org" class="b-orange">
+                            Haxe</a>.</p>
+                            <img class="fat-logo-img"
                             src="../img/beluga/beluga_logo_notitle.png" alt="Logo of Beluga">
-                            <p class="fat-logo-desc">
-                            A framework based on high-level, modern and strongly typed 
-                            programing language: <a href="http://www.haxe.org"><strong>
-                            <span class="color-orange">Haxe</span></strong></a>.
-                            </p>
+                            <h1 class="fat-logo-huge">BELUGA</h1>
                         </div>
                     </div>
                 </div>
@@ -102,20 +97,15 @@
             <div class="targets-wego">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-8">
-                            <p class="targets-desc">
-                            Combining the power of <strong
-                                class="color-orange">Haxe</strong> and <strong
-                                class="color-marine">Beluga</strong>, you can easily 
-                            build <strong class="color-green">cross-platform web
-                                application</strong> targeting all the
-                            mainstream technologies <strong class="color-blue">natively</strong>.
+                        <div class="col-md-12">
+                            <img class="target-img" src="../img/misc/haxe_targets.png" alt="Targets of Beluga">
+                            <p class="b-lead">
+                            Combining the power of <strong class="b-orange">Haxe</strong> and
+                            <strong class="b-navy">Beluga</strong>, you can easily build
+                            <strong class="b-green">cross-platform web application</strong>
+                            targeting all the mainstream technologies
+                            <strong class="b-blue">natively</strong>.
                             </p>
-                        </div>
-                        <div class="col-md-4">
-                            <img class="fat-logo"
-                            src="../img/misc/haxe_targets.png" alt="Targets of
-                            Beluga">
                         </div>
                     </div>
                 </div>
@@ -125,32 +115,32 @@
 
             <div id="learn-more" class="learn-more-wego">
                 <div class="container">
-                    <h2 class="learn-more-title"><strong>Learn More</strong></h2>
-                    <div class="row learn-more-info">
+                    <h2 class="b-title">Learn More</h2>
+                    <div class="row">
                         <div class="col-md-4">
-                            <h3 class="color-blue"><strong>What Beluga is</strong></h3>
-                            <p>Beluga is an open source framework built to create web
+                            <h3 class="b-subtitle">What Beluga is</h3>
+                            <p class="b-content">Beluga is an open source framework built to create web
                             applications. It is based on a modern high level programming 
                             language: Haxe. It was initially created to help game
                             developers to quickly implement their browser game, written in
                             Haxe, inside a full integrated web environment. 
-                            <a href="#framework">Learn More.</a></p>
+                            <a href="#framework" class="b-blue">Learn More.</a></p>
                         </div>
                         <div class="col-md-4">
-                            <h3 class="color-blue"><strong>What Beluga is not</strong></h3>
-                            <p>Beluga is not a framework for game development, such as
+                            <h3 class="b-subtitle">What Beluga is not</h3>
+                            <p class="b-content">Beluga is not a framework for game development, such as
                             Haxe Flixel. It doesn't provide any game mechanism. It is
                             only designed to provide an high level API to create we
                             application in Haxe.
-                            <a href="#framework">Learn More.</a></p>
+                            <a href="#framework" class="b-blue">Learn More.</a></p>
                         </div>
                         <div class="col-md-4">
-                            <h3 class="color-blue"><strong>What Haxe is</strong></h3>
-                            <p>Haxe is an open-source high-level multiplatform
+                            <h3 class="b-subtitle">What Haxe is</h3>
+                            <p class="b-content">Haxe is an open-source high-level multiplatform
                             programming language and compiler that can produce
                             applications and source code for many different platforms
                             from a single code-base.
-                            <a href="http://www.haxe.org">Learn More.</a></p>
+                            <a href="http://www.haxe.org" class="b-blue">Learn More.</a></p>
                         </div>
                     </div>
                 </div>
@@ -160,10 +150,10 @@
 
             <div id="taste-code" class="taste-code-wego">
                 <div class="container">
-                    <h2 class="taste-title"><strong>A taste of Beluga</strong></h2>
+                    <h2 class="b-title">A taste of Beluga</h2>
                     <div class="row">
                         <div class="col-md-8">
-                            <div class="highlight">
+                            <div class="highlight code-snippet">
 <pre>
 <span class="cm">/*</span>
 <span class="cm">* Exemple of the minimum code to make a working authentification</span>
@@ -199,9 +189,9 @@ class="nf">main</span><span class="o">()</span> <span class="o">{</span>
                             </div>
                         </div>
                         <div class="col-md-4">
-                            <p class="taste-comment">In <span 
-                            class="color-green"><strong>few lines</strong></span> 
-                            of code, you are <span class="color-green"><strong>
+                            <p class="b-lead">In <span 
+                            class="b-orange"><strong>few lines</strong></span> 
+                            of code, you are <span class="b-orange"><strong>
                             able to display</strong></span> an authentification page!</p>
                         </div>
                     </div>
@@ -212,13 +202,11 @@ class="nf">main</span><span class="o">()</span> <span class="o">{</span>
 
             <div id="framework" class="beluga-framework-wego">
                 <div class="container">
-                    <h2 class="beluga-framework-title"><strong>The Beluga Framework</strong></h2>
+                    <h2 class="b-title">The Beluga Framework</h2>
                     <div class="row">
-                        <div class="col-md-2 beluga-framework-subtitle">
-                            <h3 class="color-blue"><strong>Modular</strong></h3>
-                        </div>
-                        <div class="col-md-10 beluga-framework-info">
-                            <p>
+                        <div class="col-md-12">
+                            <h3 class="b-subtitle">Modular</h3>
+                            <p class="b-content">
                             Beluga is an open source framework built to
                             create web application. It is based on a modern
                             high level programming language: Haxe. It was
@@ -226,8 +214,7 @@ class="nf">main</span><span class="o">()</span> <span class="o">{</span>
                             quickly implement their browser game, written in
                             Haxe, inside a full integrated web environment.
                             </p>
-                            <br>
-                            <p>
+                            <p class="b-content">
                             In the today web practices, we noticed that
                             modularity and flexibility are unavoidable
                             requirements. As a result, we designed a highly
@@ -241,48 +228,42 @@ class="nf">main</span><span class="o">()</span> <span class="o">{</span>
                             failure, for example). All of these triggers are
                             catchable, it means you can listen these trigger
                             and run your own code when something occurs. Don't
-                            wait any longer: <strong class="color-orange">Catch'em all!</strong>
+                            wait any longer: <strong class="b-orange">Catch'em all!</strong>
                             </p>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-2 beluga-framework-subtitle">
-                            <h3 class="color-blue"><strong>Light weight</strong></h3>
-                        </div>
-                        <div class="col-md-10 beluga-framework-info">
-                            <p>Beluga is design to be as light as possible and it's possible
+                        <div class="col-md-12">
+                            <h3 class="b-subtitle">Light weight</h3>
+                            <p class="b-content">Beluga is design to be as light as possible and it's possible
                             thanks to our trigger system once again. Indeed, this system allows 
                             to reduce the dependencies between the modules. The modules are not
                             "linked" together, they "communicate" which means they are not 
                             inter-dependent.
                             </p>
-                            <br>
-                            <p>
+                            <p class="b-content">
                             As a result, with such a system, it becomes possible to select the
                             modules you want to load and the one you don't want. 
                             </p>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-2 beluga-framework-subtitle">
-                            <h3 class="color-blue"><strong>Ready to use</strong></h3>
-                        </div>
-                        <div class="col-md-10 beluga-framework-info">
-                            <p>
+                        <div class="col-md-12">
+                            <h3 class="b-subtitle">Ready to use</h3>
+                            <p class="b-content">
                             In order to provide a good base, we decided to
                             provide around 15 modules for our first release.
                             Among them, you can find: an account manager, a
                             forum, an advertiser manager, a market, a payment
                             system, a news manager... And it goes on! 
                             </p>
-                            <br>
-                            <p>
+                            <p class="b-content">
                             Each of them possesses hundred of functionalities and are
                             fully integrated inside a modern <a
-                            href="http://getbootstrap.com/">Twitter
+                            href="http://getbootstrap.com/" class="b-blue">Twitter
                             Bootstrap</a> environment. Moreover, we can certify
                             that everything work properly Do not hesitate to try
-                            them on <a href="#">our demonstration website!</a>
+                            them on <a href="#" class="b-blue">our demonstration website!</a>
                             </p>
                         </div>
                     </div>

@@ -1,101 +1,85 @@
-/* Prerequies / Haxelib */
+/* Body
+ */
+body {
+  padding-top: 50px;
+  background-color: #EEE; }
+  @media (min-width: 750px) {
+    body {
+      padding-top: 80px; } }
 
-.prerequies-title, .haxelib-title {
-    font-family: "AgencyFB", Arial, Helvetica;
-    font-size: 38px;   
-    margin-top: 50px;
-    margin-bottom: 30px;
-}
+/* Colors
+ */
+.b-orange {
+  color: #FF7F00; }
 
-.prerequies-info > div > p, .haxelib-info > div > p {
-    font-family: "OpenSans", Arial, Helvectica;
-    font-size: 16px;
-}
+.b-blue {
+  color: #23A2F7; }
 
-.prerequies-info > div > ul > li, .alert {
-    font-family: "OpenSans", Arial, Helvectica;
-    font-size: 16px;
-}
+.b-green {
+  color: #33CC33; }
 
-.prerequies-subtitle  {
-    font-family: "AgencyFB", Arial, Helvectica;
-    font-size: 28px;
-    margin-top: 40px;
-    margin-bottom: 20px;
-}
+.b-navy {
+  color: #232C35; }
 
-@media(min-width:768px) {
+.b-smoke {
+  color: #F0F0F0; }
 
-    .fat-logp-header {
-	    width: 50%;
-    }
-}
+/* Typography
+ */
+.b-lead {
+  font-family: AgencyFB, Arial, Helvectica;
+  font-size: 32px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #232C35; }
+  @media (min-width: 750px) {
+    .b-lead {
+      font-size: 42px; } }
 
-.well {
-    background-color: #FFF;
-    margin: 20px 0;
-}
+.b-title {
+  font-family: AgencyFB, Arial, Helvectica;
+  font-size: 38px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  color: #232C35; }
+  @media (min-width: 750px) {
+    .b-title {
+      margin-top: 50px;
+      margin-bottom: 40px; } }
 
-/* Haxelib */
+.b-subtitle {
+  font-family: AgencyFB, Arial, Helvectica;
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: #23A2F7; }
+  @media (min-width: 750px) {
+    .b-subtitle {
+      margin-top: 40px;
+      margin-bottom: 20px; } }
 
-.alert {
-    font-family: "OpenSans", Arial, Helvectica;
-    font-size: 16px;
-    margin: 30px 0;
-}
+.b-content, .b-note, .code-snippet {
+  font-family: OpenSans, Arial, Helvectica;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: justify;
+  color: #232C35; }
 
-/* Taste of code */
+.b-note, .code-snippet {
+  margin-top: 20px;
+  margin-bottom: 20px; }
 
-.taste-code-wego {
-    margin-top: 20px;
-    margin-bottom: 50px;
-}
+.code-snippet {
+  background-color: #FFFFFF; }
 
-.taste-title {
-    font-family: "AgencyFB", Arial, Helvetica;
-    font-size: 38px;   
-    margin-bottom: 40px;
-}
+/* Boxes
+ */
+.b-box {
+  padding-top: 50px;
+  padding-bottom: 50px; }
 
-.taste-comment {
-    font-family: "AgencyFB", Arial, Helvetica;
-    text-align: center;
-    padding: 20px 0;
-    font-size: 32px;
-}
-
-
-@media(min-width:991px) {
-
-    .taste-comment {
-        padding: 50px 0;
-        font-size: 40px;
-    }
-}
-
-/* Beluga Framework */
-
-
-.beluga-framework-title {
-    font-family: "AgencyFB", Arial, Helvetica;
-    font-size: 38px;   
-    margin-top: 20px;
-    margin-bottom: 40px;
-}
-
-.beluga-framework-info > p {
-    font-family: "OpenSans", Arial, Helvectica;
-    font-size: 16px;
-    text-align: justifyNONE;
-}
-
-.beluga-framework-wego > div > .row {
-    margin-bottom: 30px;
-}
-
-.beluga-framework-subtitle > h3 {
-    margin-top: 0;
-    font-family: "AgencyFB", Arial, Helvectica;
-    font-size: 28px;
-    text-align: right;
-}
+/*# sourceMappingURL=download.css.map */

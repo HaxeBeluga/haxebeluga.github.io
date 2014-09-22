@@ -1,152 +1,129 @@
-/* Fat logo header */
+/* Body
+ */
+body {
+  padding-top: 50px;
+  background-color: #EEE; }
+  @media (min-width: 750px) {
+    body {
+      padding-top: 80px; } }
+
+/* Colors
+ */
+.b-orange {
+  color: #FF7F00; }
+
+.b-blue {
+  color: #23A2F7; }
+
+.b-green {
+  color: #33CC33; }
+
+.b-navy {
+  color: #232C35; }
+
+.b-smoke {
+  color: #F0F0F0; }
+
+/* Typography
+ */
+.b-lead, .fat-logo-big-text, .fat-logo-huge, .fat-logo-super, .fat-logo-lead {
+  font-family: AgencyFB, Arial, Helvectica;
+  font-size: 32px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #232C35; }
+  @media (min-width: 750px) {
+    .b-lead, .fat-logo-big-text, .fat-logo-huge, .fat-logo-super, .fat-logo-lead {
+      font-size: 42px; } }
+
+.b-title {
+  font-family: AgencyFB, Arial, Helvectica;
+  font-size: 38px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  color: #232C35; }
+  @media (min-width: 750px) {
+    .b-title {
+      margin-top: 50px;
+      margin-bottom: 40px; } }
+
+.b-subtitle {
+  font-family: AgencyFB, Arial, Helvectica;
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: #23A2F7; }
+  @media (min-width: 750px) {
+    .b-subtitle {
+      margin-top: 40px;
+      margin-bottom: 20px; } }
+
+.b-content, .b-note, .code-snippet {
+  font-family: OpenSans, Arial, Helvectica;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: justify;
+  color: #232C35; }
+
+.b-note, .code-snippet {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.code-snippet {
+  background-color: #FFFFFF; }
+
+/* Boxes
+ */
+.b-box, .targets-wego {
+  padding-top: 50px;
+  padding-bottom: 50px; }
 
 .fat-logo-wego {
-	background-color: #232C35;
-}
+  background-color: #232C35; }
 
-.fat-logo-header {
-	width: 80%;
-	margin: 80px auto;
+.fat-logo-big-text, .fat-logo-huge, .fat-logo-super {
+  font-weight: bold; }
 
-}
+.fat-logo-huge {
+  font-size: 200px;
+  letter-spacing: 40px;
+  color: #F0F0F0; }
+  @media (max-width: 750px) {
+    .fat-logo-huge {
+      font-size: 90px;
+      letter-spacing: 10px; } }
+  @media (min-width: 750px) and (max-width: 970px) {
+    .fat-logo-huge {
+      font-size: 130px;
+      letter-spacing: 20px; } }
 
-.fat-logo-title {
-	text-align: center;
-	font-family: "AgencyFB", Arial, Helvetica;
-	color: #FFF;
-	font-size: 55px;
-	margin-bottom: 25px;
-}
+.fat-logo-super {
+  font-size: 62px;
+  color: #F0F0F0; }
 
-.fat-logo-desc {
-	text-align: center;
-	font-family: "AgencyFB", Arial, Helvetica;
-	font-size: 32px;
-	margin-bottom: 25px;
-	color: #F4F4F4;
-}
+.fat-logo-lead {
+  color: #F0F0F0; }
 
-.fat-logo-desc > a {
-    color: #FF7F00; 
-}
-
-.fat-logo {
-    display: block;
-	margin: 60px auto;
-	max-width: 100%;
-    height: auto;
-    width: auto\9;
-}
-
-@media(min-width:768px) {
-
-    .fat-logo-header {
-	    width: 60%;
-    }
-}
-
-/* Targets */
+.fat-logo-img {
+  display: block;
+  margin: 60px auto;
+  max-width: 80%;
+  height: auto; }
+  @media (min-width: 750px) {
+    .fat-logo-img {
+      width: 60%;
+      width: auto\9; } }
 
 .targets-wego {
-    background-color: #FFF;
-    padding: 50px 0;
-}
+  background-color: #FFFFFF; }
 
-.targets-desc {
-	color: #232C35;
-	text-align: center;
-	font-family: "AgencyFB", Arial, Helvetica;
-	font-size: 32px;
-    margin: 30px 0;
-    padding: 0 80px;
-}
+.target-img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%; }
 
-@media(min-width:991px) {
-
-    .targets-desc {
-        margin: 140px auto;
-        text-align: left;
-        padding: 0;
-        padding-right: 80px;
-    }
-
-}
-
-/* Learn more */
-
-.learn-more-wego {
-    margin-top: 20px;
-    margin-bottom: 50px;
-}
-
-.learn-more-title {
-    font-family: "AgencyFB", Arial, Helvetica;
-    font-size: 38px;   
-    margin-top: 50px;
-}
-
-.learn-more-info > div > h3 {
-    font-family: "AgencyFB", Arial, Helvectica;
-    font-size: 28px;
-}
-
-.learn-more-info > div > p {
-    font-family: "OpenSans", Arial, Helvectica;
-    font-size: 16px;
-}
-
-/* Taste of code */
-
-.taste-code-wego {
-    margin-top: 20px;
-    margin-bottom: 50px;
-}
-
-.taste-title {
-    font-family: "AgencyFB", Arial, Helvetica;
-    font-size: 38px;   
-    margin-bottom: 40px;
-}
-
-.taste-comment {
-    font-family: "AgencyFB", Arial, Helvetica;
-    text-align: center;
-    padding: 20px 0;
-    font-size: 32px;
-}
-
-
-@media(min-width:991px) {
-
-    .taste-comment {
-        padding: 50px 0;
-        font-size: 40px;
-    }
-}
-
-/* Beluga Framework */
-
-
-.beluga-framework-title {
-    font-family: "AgencyFB", Arial, Helvetica;
-    font-size: 38px;   
-    margin-top: 20px;
-    margin-bottom: 40px;
-}
-
-.beluga-framework-info > p {
-    font-family: "OpenSans", Arial, Helvectica;
-    font-size: 16px;
-    text-align: justify;
-}
-
-.beluga-framework-wego > div > .row {
-    margin-bottom: 30px;
-}
-
-.beluga-framework-subtitle > h3 {
-    margin-top: 0;
-    font-family: "AgencyFB", Arial, Helvectica;
-    font-size: 28px;
-    text-align: right;
-}
+/*# sourceMappingURL=home.css.map */

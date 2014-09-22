@@ -1,0 +1,53 @@
+@import structure.sass
+
+.fat-logo-wego
+  background:
+    color: $color-navy
+
+.fat-logo-big-text
+  @extend .b-lead
+  font:
+    weight: bold
+
+.fat-logo-huge
+  @extend .fat-logo-big-text
+  font:
+    size: 200px
+  letter-spacing: 40px
+  color: $color-smoke
+  @media (max-width:750px)
+    font-size: 90px
+    letter-spacing: 10px
+  @media (min-width:750px) and (max-width:970px)
+    font-size: 130px
+    letter-spacing: 20px
+
+.fat-logo-super
+  @extend .fat-logo-big-text
+  font:
+    size: $font-size-lead + 20px
+  color: $color-smoke
+
+.fat-logo-lead
+  @extend .b-lead
+  color: $color-smoke
+
+.fat-logo-img
+  display: block
+  margin: 60px auto
+  max-width: 80%
+  height: auto
+  @media (min-width:750px)
+    width: 60%
+    width: auto\9
+
+.targets-wego
+  @extend .b-box
+  background:
+    color: #FFFFFF
+
+.target-img
+  display: block
+  margin: 0 auto
+  max-width: 100%
+  @media (min-width:750px)
